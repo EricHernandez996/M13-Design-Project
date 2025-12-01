@@ -10,9 +10,11 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  border-bottom: 3px black;
+  border-bottom: 3px solid black; 
+  box-sizing: border-box; 
   z-index: 1000;
 }
+
 
 .navbar ul {
   list-style: none;
