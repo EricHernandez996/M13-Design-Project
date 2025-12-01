@@ -5,22 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Commissions — EH Designs</title>
 
-   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:wght@300;400;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="main.css">
+
+    <style>
+      body { margin: 0; background: #bfbfbf; font-family: "Zalando Sans Expanded", sans-serif; }
+      .section { max-width: 1300px; margin: 0 auto; padding: 60px 40px; }
+      .top-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 60px; }
+      .top-title h1 { font-size: 70px; font-weight: 600; margin: 0; line-height: 1.1; }
+      .top-image img { width: 500px; border-radius: 4px; }
+      hr { border: none; border-top: 2px solid #8d8d8d; margin: 40px 0; }
+      .middle-grid { display: grid; grid-template-columns: 300px 300px 1fr; gap: 30px; align-items: start; }
+      .middle-grid img { width: 100%; border-radius: 4px; }
+      .services-list p { font-size: 18px; font-weight: 600; margin: 0 0 14px 0; }
+      .quotes { max-width: 700px; margin-top: 20px; font-size: 16px; line-height: 1.4; }
+      .form-box { width: 550px; margin: 40px auto; padding: 30px; border: 2px solid #000; background: #c9c9c9; }
+      .form-box h2 { text-align: center; margin-bottom: 20px; font-size: 18px; }
+      .form-group { margin-bottom: 15px; }
+      .form-group label { font-size: 15px; }
+      .form-group input { width: 100%; height: 30px; margin-top: 3px; border: 1px solid #777; padding: 4px; background: #e7e7e7; }
+      .submit-btn { width: 100%; padding: 10px; background: #9e9e9e; border: 1px solid #000; cursor: pointer; font-size: 16px; }
+    </style>
 </head>
 
 <body>
-
 <header>
   <nav class="navbar">
     <a href="index.html" class="brand">
       <img src="images/EH White No Background.png" alt="EH Designs logo" class="logo">
     </a>
-
     <ul class="nav-links">
       <li><a href="about.html">About</a></li>
       <li><a href="tutorials.html">Tutorials</a></li>
@@ -30,38 +46,68 @@
   </nav>
 </header>
 
+<div class="section">
 
-    <section class="page-section">
-        <h1>Commissions</h1>
-        <p>
-            Need a custom design? Whether you're building a brand, creating digital art, or 
-            designing something completely unique, I’ll craft a piece made specifically for your vision.
-        </p>
-
-        <h2>What You Can Commission</h2>
-        <ul>
-            <li>Logos & Branding</li>
-            <li>Digital Illustrations</li>
-            <li>Social Media Graphics</li>
-            <li>Posters & Print Designs</li>
-            <li>Custom Artwork</li>
-        </ul>
-
-        <p>
-            Ready to get started? Reach out with a description of your project and I’ll send a 
-            personalized quote.
-        </p>
-    </section>
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>© 2025 EH Designs Studio</p>
-      <nav class="footer-links">
-        <a href="#">TikTok</a>
-        <a href="#">Instagram</a>
-        <a href="#">Contact</a>
-      </nav>
+  <div class="top-row">
+    <div class="top-title">
+      <h1>Our<br>Commission<br>Services</h1>
     </div>
-  </footer>
-  
+    <div class="top-image">
+      <img src="images/top-commission.jpg" alt="Design Meeting">
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="middle-grid">
+    <img src="images/social-icons.jpg" alt="Social Media Icons">
+    <img src="images/business-card.jpg" alt="Business Card Design">
+
+    <div class="services-list">
+      <p>Logo Design Commissions</p>
+      <p>Branding Package Commissions (logos, color palettes, typography, brand sheets)</p>
+      <p>Website Design Commissions</p>
+      <p>Illustration Commissions (digital, portraits, concept art)</p>
+      <p>Graphic Design Commissions (posters, flyers, banners)</p>
+      <p>Social Media Design Commissions (templates, posts, story graphics)</p>
+      <p>Business Card & Print Design Commissions</p>
+      <p>Custom Project Commissions (anything unique or special request)</p>
+    </div>
+  </div>
+
+  <div class="quotes">
+    <p>"We offer a wide range of design commissions, from branding to digital illustrations. Share your project details to receive a custom quote."</p>
+    <p>"Each commission is priced based on complexity, timeline, and deliverables. Contact us for an accurate estimate."</p>
+    <p>"Whether you need branding, web design, or custom artwork, we provide personalized quotes for every commission."</p>
+  </div>
+
+  <div class="form-box">
+    <h2>Personal Information</h2>
+
+    <div class="form-group">
+      <label>First Name:</label>
+      <input type="text" />
+    </div>
+
+    <div class="form-group">
+      <label>Last Name:</label>
+      <input type="text" />
+    </div>
+
+    <div class="form-group">
+      <label>Email:</label>
+      <input type="email" />
+    </div>
+
+    <div class="form-group">
+      <label>Phone Number:</label>
+      <input type="text" />
+    </div>
+
+    <button class="submit-btn">Submit</button>
+  </div>
+
+</div>
+
 </body>
 </html>
