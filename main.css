@@ -1,0 +1,32 @@
+body {
+    background-color: cadetblue;
+}
+
+.navbar {
+  background-color: cadetblue;   
+  padding: 10px;           
+  position: fixed;           
+  top: 0;
+  left: 0;
+  width: 100%;             
+}
+
+.navbar ul {
+  list-style: none;          
+  margin: 0;
+  padding: 0;
+  display: flex;            
+  justify-content: space-around; 
+}
+
+.navbar ul li a {
+  color: white;           
+  text-decoration: none;     
+  font-size: 18px;
+  padding: 8px 15px;
+}
+
+.navbar ul li a:hover {
+  background-color: #555;    
+  border-radius: 5px;
+}
