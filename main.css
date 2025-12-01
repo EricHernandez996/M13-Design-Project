@@ -137,3 +137,25 @@ body{
   .container{padding:28px 16px}
   .btn{padding:10px 16px}
 }
+
+
+.nav-links a.nav-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+
+.nav-links a.nav-btn:hover {
+  background-color: #45a049;
+}
+
+
+.nav-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
